@@ -44,3 +44,10 @@ CIFAR-10 has 10 classes:
 8. Horse
 9. Ship
 10. Truck
+
+
+How to setup the server: 
+1. install all the dependences from requirements.txt
+pip install -r requirements.txt
+2. run the server with a uvicorn
+uvicorn app.main:app --reload
