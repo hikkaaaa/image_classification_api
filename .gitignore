@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Machine Learning Artifacts
+*.pth
+*.pt
+ml_experiments/data/
+ml_experiments/runs/
+
+# IDEs
+.vscode/
+.idea/
+
+# Mac
+.DS_Store

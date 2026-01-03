@@ -1,0 +1,12 @@
+# Core ML
+torch
+torchvision
+numpy
+
+# API & Backend
+fastapi
+uvicorn
+python-multipart  # Required for handling file uploads in FastAPI
+
+# Image Processing
+Pillow            # For image manipulation (loading/resizing)
