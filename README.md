@@ -45,9 +45,10 @@ CIFAR-10 has 10 classes:
 9. Ship
 10. Truck
 
-
-How to setup the server: 
+The project was dockerized, so in order to run the server:
 1. install all the dependences from requirements.txt
 pip install -r requirements.txt
-2. run the server with a uvicorn
-uvicorn app.main:app --reload
+2. run the server with a docker, the name of the docker is my-ai-app
+docker run -p 8000:80 my-ai-app
+3. it will show another port, but dont go there
+4. open the browser and go to http://localhost:8000

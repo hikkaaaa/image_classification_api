@@ -1,5 +1,9 @@
+#MAC system files
+.DS_Store
+
 # Python
 __pycache__/
+*.pyc
 *.py[cod]
 *$py.class
 venv/
@@ -15,5 +19,8 @@ ml_experiments/runs/
 .vscode/
 .idea/
 
-# Mac
-.DS_Store
+#Docker
+.dockerignore
+
+#Model
+models/
